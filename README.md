@@ -1,7 +1,7 @@
-#Encryptor!
+# Encryptor!
 *A program to encrypt/decrypt a file's content.*
 
-##Build 
+## Build 
 *Windows*
 - fork this repository to your github.
 - clone the forked repo from git bash or any terminal(preferably Windows Powershell).
@@ -9,15 +9,17 @@
 - Now, Open Visual Studio community and open file solution *Encryptor.sln*
 - Good to go....
 
-##Concepts used
+## Concepts used
 - File handling.
 - OOPs.
 - string.
 - STL(vectors,maps).
 
 *Feel free to contribute to this project*
-##For any queries
+
+## For any queries
     [Email](debash.bora@gmail.com)
     [Twitter](https://twitter.com/debash_bora)
     [Discord](UrEkMazZiNo#3228)
-#NOTE: If you like this project please give it a star.
+    
+# NOTE: If you like this project please give it a star.
