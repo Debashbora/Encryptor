@@ -1,0 +1,1 @@
+this program does an encryption or decryption operation on the message according to the user
