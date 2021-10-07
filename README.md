@@ -5,14 +5,14 @@
 *Windows*
 - fork this repository to your github.
 - clone the forked repo from git bash or any terminal(preferably Windows Powershell).
-    >git clone {HTTPS url of the Repository}
+    >git clone https://github.com/Debashbora/Encryptor.git 
 - Now, Open Visual Studio community and open file solution *Encryptor.sln*
 - Good to go....
 
 ## Concepts used
 - File handling.
 - OOPs.
-- string.
+- String.
 - STL(vectors,maps).
 
 *Feel free to contribute to this project*
