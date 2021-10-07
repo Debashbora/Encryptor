@@ -18,8 +18,8 @@
 *Feel free to contribute to this project*
 
 ## For any queries
-    [Email](debash.bora@gmail.com)
-    [Twitter](https://twitter.com/debash_bora)
-    [Discord](UrEkMazZiNo#3228)
+    [Email] (debash.bora@gmail.com)
+    [Twitter] (https://twitter.com/debash_bora)
+    [Discord] (UrEkMazZiNo#3228)
     
 # NOTE: If you like this project please give it a star.
