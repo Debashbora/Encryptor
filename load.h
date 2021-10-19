@@ -9,9 +9,9 @@ using namespace std;
 class Encript
 {
 public:
-	Encript();
+	
 	void LoadMap();
-	string Message(const char* ch, string message, string messageEnc);
+	string Message(const char* ch,const string& message,const string& messageEnc);
 	map<string, string> theKey;
 	map<string, string> revKey;
 	vector<string> keys;

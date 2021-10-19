@@ -1,13 +1,10 @@
 #include "load.h"
 
+map<char, char> theKey;
+map<char, char> revKey;
+char  keys[256];
+vector<string> values;
 
-Encript::Encript() 
-{
-    map<string, string> theKey;
-    map<string, string> revKey;
-    vector<string> keys;
-    vector<string> values;
-}
 void Encript::LoadMap()
 
 {
@@ -29,29 +26,29 @@ void Encript::LoadMap()
     }
 
 }
-string Encript::Message(const char* ch, string message, string messageEnc)
+string Encript::Message(const char* ch,const string& message,const string& messageEnc)
 {
-   
+    if (!strcmp(ch, "-e")) {
         for (int i = 0; i != message.size(); i++)
         {
 
             string tempChar;
             tempChar = message.at(i);
-
-            if (!strcmp(ch, "-e"))
-            {
-                cout << "Encrypting.\n";
-                messageEnc += theKey[tempChar];
-            }
-
-            else if (!strcmp(ch, "-d"))
-
-            {
-                cout << "Decrypting.\n";
-                messageEnc += revKey[tempChar];
-            }
-
+            cout << "Encrypting.\n";
+            messageEnc += theKey[tempChar];
+         
         }
-    
+    }
+    else if (!strcmp(ch, "-d"))
+    {
+        for (int i = 0; i != message.size(); i++)
+        {
+
+            string tempChar;
+            tempChar = message.at(i);
+            cout << "Decrypting.\n";
+            messageEnc += revKey[tempChar];
+        }
+    }
     return messageEnc;
 }
